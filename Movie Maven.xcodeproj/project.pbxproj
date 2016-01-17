@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		44500B591C4B63BF00258AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B581C4B63BF00258AA4 /* AppDelegate.swift */; };
-		44500B5B1C4B63BF00258AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B5A1C4B63BF00258AA4 /* ViewController.swift */; };
 		44500B5E1C4B63BF00258AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44500B5C1C4B63BF00258AA4 /* Main.storyboard */; };
 		44500B601C4B63BF00258AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44500B5F1C4B63BF00258AA4 /* Assets.xcassets */; };
 		44500B631C4B63BF00258AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44500B611C4B63BF00258AA4 /* LaunchScreen.storyboard */; };
+		44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B6A1C4B644300258AA4 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44500B551C4B63BF00258AA4 /* Movie Maven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Maven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44500B581C4B63BF00258AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44500B5A1C4B63BF00258AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44500B5D1C4B63BF00258AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44500B5F1C4B63BF00258AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44500B621C4B63BF00258AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44500B641C4B63BF00258AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44500B6A1C4B644300258AA4 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				44500B581C4B63BF00258AA4 /* AppDelegate.swift */,
-				44500B5A1C4B63BF00258AA4 /* ViewController.swift */,
 				44500B5C1C4B63BF00258AA4 /* Main.storyboard */,
 				44500B5F1C4B63BF00258AA4 /* Assets.xcassets */,
 				44500B611C4B63BF00258AA4 /* LaunchScreen.storyboard */,
 				44500B641C4B63BF00258AA4 /* Info.plist */,
+				44500B6A1C4B644300258AA4 /* MoviesViewController.swift */,
 			);
 			path = "Movie Maven";
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44500B5B1C4B63BF00258AA4 /* ViewController.swift in Sources */,
 				44500B591C4B63BF00258AA4 /* AppDelegate.swift in Sources */,
+				44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

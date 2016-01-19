@@ -12,6 +12,7 @@
 		44500B601C4B63BF00258AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44500B5F1C4B63BF00258AA4 /* Assets.xcassets */; };
 		44500B631C4B63BF00258AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44500B611C4B63BF00258AA4 /* LaunchScreen.storyboard */; };
 		44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B6A1C4B644300258AA4 /* MoviesViewController.swift */; };
+		44EDF4411C4ED90A0085AF19 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDF4401C4ED90A0085AF19 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		44500B621C4B63BF00258AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44500B641C4B63BF00258AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44500B6A1C4B644300258AA4 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		44EDF4401C4ED90A0085AF19 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		44500B571C4B63BF00258AA4 /* Movie Maven */ = {
 			isa = PBXGroup;
 			children = (
+				44EDF4421C4ED91F0085AF19 /* View Controllers */,
+				44EDF43F1C4ED8B80085AF19 /* Views */,
 				44500B581C4B63BF00258AA4 /* AppDelegate.swift */,
 				44500B5C1C4B63BF00258AA4 /* Main.storyboard */,
 				44500B5F1C4B63BF00258AA4 /* Assets.xcassets */,
 				44500B611C4B63BF00258AA4 /* LaunchScreen.storyboard */,
 				44500B641C4B63BF00258AA4 /* Info.plist */,
-				44500B6A1C4B644300258AA4 /* MoviesViewController.swift */,
 			);
 			path = "Movie Maven";
+			sourceTree = "<group>";
+		};
+		44EDF43F1C4ED8B80085AF19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44EDF4401C4ED90A0085AF19 /* MovieCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		44EDF4421C4ED91F0085AF19 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44500B6A1C4B644300258AA4 /* MoviesViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			files = (
 				44500B591C4B63BF00258AA4 /* AppDelegate.swift in Sources */,
 				44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */,
+				44EDF4411C4ED90A0085AF19 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				44500B691C4B63BF00258AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

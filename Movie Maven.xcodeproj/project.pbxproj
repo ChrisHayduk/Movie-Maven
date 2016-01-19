@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27E206E6922C994C1A633E79 /* Pods_Movie_Maven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBE3B24C0DE73D44E16957 /* Pods_Movie_Maven.framework */; };
 		44500B591C4B63BF00258AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B581C4B63BF00258AA4 /* AppDelegate.swift */; };
 		44500B5E1C4B63BF00258AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44500B5C1C4B63BF00258AA4 /* Main.storyboard */; };
 		44500B601C4B63BF00258AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44500B5F1C4B63BF00258AA4 /* Assets.xcassets */; };
@@ -24,6 +25,9 @@
 		44500B641C4B63BF00258AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44500B6A1C4B644300258AA4 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		44EDF4401C4ED90A0085AF19 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		88EBE3B24C0DE73D44E16957 /* Pods_Movie_Maven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Maven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47E74D2388148CCC6CCA611 /* Pods-Movie Maven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Maven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven.debug.xcconfig"; sourceTree = "<group>"; };
+		FDDB116510B607C914C76CCC /* Pods-Movie Maven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Maven.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E206E6922C994C1A633E79 /* Pods_Movie_Maven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				44500B571C4B63BF00258AA4 /* Movie Maven */,
 				44500B561C4B63BF00258AA4 /* Products */,
+				6A7F7C8062F17BA5852456D6 /* Pods */,
+				566C03EB272E018701802373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +90,23 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		566C03EB272E018701802373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88EBE3B24C0DE73D44E16957 /* Pods_Movie_Maven.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A7F7C8062F17BA5852456D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47E74D2388148CCC6CCA611 /* Pods-Movie Maven.debug.xcconfig */,
+				FDDB116510B607C914C76CCC /* Pods-Movie Maven.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44500B671C4B63BF00258AA4 /* Build configuration list for PBXNativeTarget "Movie Maven" */;
 			buildPhases = (
+				6436B7CA2F98288B236352C2 /* Check Pods Manifest.lock */,
 				44500B511C4B63BF00258AA4 /* Sources */,
 				44500B521C4B63BF00258AA4 /* Frameworks */,
 				44500B531C4B63BF00258AA4 /* Resources */,
+				E4F042B446F9033DCD1CA4CD /* Embed Pods Frameworks */,
+				30C123EB453B4B2D6310493E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +175,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30C123EB453B4B2D6310493E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6436B7CA2F98288B236352C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F042B446F9033DCD1CA4CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44500B511C4B63BF00258AA4 /* Sources */ = {
@@ -267,6 +342,7 @@
 		};
 		44500B681C4B63BF00258AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47E74D2388148CCC6CCA611 /* Pods-Movie Maven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Movie Maven/Info.plist";
@@ -278,6 +354,7 @@
 		};
 		44500B691C4B63BF00258AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDB116510B607C914C76CCC /* Pods-Movie Maven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Movie Maven/Info.plist";

@@ -4,7 +4,7 @@
 
 Movie Maven is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Creating the loading state and pull-to-refresh features was slightly difficult. After breaking up my code into more functions, I was able to more easily implement these features.
 
 ## License
 

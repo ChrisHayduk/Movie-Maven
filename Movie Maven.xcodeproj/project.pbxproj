@@ -14,6 +14,7 @@
 		44500B631C4B63BF00258AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44500B611C4B63BF00258AA4 /* LaunchScreen.storyboard */; };
 		44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44500B6A1C4B644300258AA4 /* MoviesViewController.swift */; };
 		44EDF4411C4ED90A0085AF19 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDF4401C4ED90A0085AF19 /* MovieCell.swift */; };
+		44F4AAC91C5F1E660026DA42 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F4AAC81C5F1E660026DA42 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		44500B641C4B63BF00258AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44500B6A1C4B644300258AA4 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		44EDF4401C4ED90A0085AF19 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		44F4AAC81C5F1E660026DA42 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		88EBE3B24C0DE73D44E16957 /* Pods_Movie_Maven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Maven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47E74D2388148CCC6CCA611 /* Pods-Movie Maven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Maven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDB116510B607C914C76CCC /* Pods-Movie Maven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Maven.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Maven/Pods-Movie Maven.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				44500B6A1C4B644300258AA4 /* MoviesViewController.swift */,
+				44F4AAC81C5F1E660026DA42 /* DetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				44500B591C4B63BF00258AA4 /* AppDelegate.swift in Sources */,
 				44500B6B1C4B644300258AA4 /* MoviesViewController.swift in Sources */,
 				44EDF4411C4ED90A0085AF19 /* MovieCell.swift in Sources */,
+				44F4AAC91C5F1E660026DA42 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

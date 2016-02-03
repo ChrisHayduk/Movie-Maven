@@ -33,7 +33,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         MBProgressHUD.showHUDAddedTo(self.view, animated: true)
         
-        networkRequest().
+        networkRequest()
     }
     
     func networkRequest(){
